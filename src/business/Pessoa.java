@@ -22,10 +22,10 @@ public class Pessoa {
     private LocalDate dataNascimento;
     private byte idade;
     private String sexo;
-
     public Pessoa() {
 
     }
+
     public Pessoa(String nomePessoa, String nomeMae, int cpf, String dataNascimento, String sexo) throws Exception {
         if(Tools.checkString(nomePessoa, "Nome da Pessoa"))
             this.nomePessoa = nomePessoa;
