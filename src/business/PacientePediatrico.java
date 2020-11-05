@@ -1,4 +1,4 @@
 package business;
 
-public class PacientePediatrico extends Pessoa{
+public class PacientePediatrico extends Pessoa {
 }
